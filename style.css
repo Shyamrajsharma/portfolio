@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.859); */
+    background-color: black;
+    color: white;
+    
+
+}
+/* .........Navbar............ */
+.navbar{
+    width: 100%;
+    box-shadow:0 0px 5px 1px rgba(119, 116, 116, 0.832) ;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; 
+    height: 70px;
+}
+
+.navbar .logo img{
+    width: 78px;
+    height: 68px;
+    border-radius: 50%;
+    margin-left: 122px;
+}
+
+.navbar .nav-menu ul{
+    display: flex;
+    color: aliceblue;
+    gap: 60px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Acme', sans-serif;
+}
+.navbar .nav-menu ul a{
+    color: white ;
+    text-decoration: none;
+}
+
+
+/* ..........Home........... */
+.header{
+    width: 100%;
+}
+.header .header-head{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+.header .header-head .text p{
+    font-size: 2rem;
+    line-height: 1.5rem;
+    color:  #f9bb1a ;
+    font-family: 'Acme', sans-serif;
+}
+.header .header-head .text h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+
+}
+.header .header-head .text h1 span{
+    color:  #f9bb1a ;
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+}
+.header .header-head .image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.wrapper span{
+    /* color: red; */
+}
+.social-media{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 35%; */
+}
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
+ .about{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.about a{
+    color:	#4285F4;
+}
+.image a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+}
+
+ @media only screen and (max-width:693px){
+    .navbar .logo img{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:372px){
+    .header{
+        margin-left: 42px;
+    }
+    .navbar{
+        width: 100%;
+    box-shadow:0 0px 5px 1px rgba(0, 0, 0, 0.832) ;
+        
+    }
+
+}
