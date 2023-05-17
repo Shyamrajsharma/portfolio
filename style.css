@@ -118,7 +118,10 @@ body{
     .navbar{
         width: 100%;
     box-shadow:0 0px 5px 1px rgba(0, 0, 0, 0.832) ;
-        
     }
+    .navbar .nav-menu ul{
+        gap: 35px;
+    }
+    
 
 }
